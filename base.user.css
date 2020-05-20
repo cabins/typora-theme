@@ -1,0 +1,43 @@
+/*
+tag: HTML标签
+code: 行内代码语句
+.md-fences: 代码块
+blockquote: 引用
+*/
+
+*,
+code,
+tag {
+  font-family: 'Courier New', '华文细黑', 'Ubuntu Mono', 'Open Sans',
+    'Clear Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  line-height: 1.5;
+}
+
+/* 行内代码语句 */
+code {
+  padding: 2px 2px 2px 2px;
+  color: red;
+  border: 0;
+  border-radius: 0;
+  font-size: 0.9em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Code Block Style，代码块 */
+.md-fences {
+  border-radius: 0px;
+  border: 0px solid rgb(248, 248, 248);
+}
+
+/* 引用 形如>开头的部分 */
+blockquote {
+  border-left: 5px solid #777777;
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(248, 248, 248);
+}
